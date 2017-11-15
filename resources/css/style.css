@@ -1,1 +1,27 @@
+html{
+  font-size: 18px;
+}
 
+body {
+  display: flex;
+  background-color: black;
+  font-family: Helvetica;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  font-size: 1rem;
+  padding: 0.66rem;
+  border: 1px solid white;
+}
+
+header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
