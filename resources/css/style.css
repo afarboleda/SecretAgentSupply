@@ -53,6 +53,10 @@ header img{
   padding: 2rem 3rem;
 }
 
+#banner p {
+  margin-top: .25rem;
+}
+
 /* Menu navigation section */
 
 #navigation {
