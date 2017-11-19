@@ -19,7 +19,6 @@ h1 {
   width: 960px;
 }
 
-
 header {
   display: flex;
   align-items: center;
@@ -54,7 +53,8 @@ header img{
 }
 
 #banner p {
-  margin-top: .25rem;
+  margin-top: .75rem;
+  line-height: 125%;
 }
 
 /* Menu navigation section */
@@ -142,6 +142,19 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+  header {
+    width: 100%;
+  }
+
+  .site {
+    width: 100%;
+  }
+
+  header img, header h1{
+    height: 1rem;
+    font-size: .75rem;
+}
+
   .glasses {
     display: none;
   }
@@ -156,6 +169,60 @@ footer {
 
   .pen, .watch, .glasses {
     width: 47%;
+ }
+
+}
+
+/* Ruleset set for mobile phones */
+
+
+@media only screen and (max-width: 470px) {
+
+  #banner {
+    align-items: flex-end;
+    height: 15rem;
+  }
+
+  #banner h1{
+  font-size: .77rem;
+  }
+
+  #banner p{
+  font-size: 1rem;
+  }
+
+  #banner .content {
+    width: 100%;
+    padding-left:2rem;
+    padding-top: 1rem;
+  }
+
+  #main {
+  padding: 0 auto;
+  }
+
+  #main .site {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #main .content {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+  .pen, .watch, .glasses {
+    width: 90%;
+ }
+
+ .watch {
+   display:none;
+ }
+
+ footer {
+   justify-content: center;
+   text-align: center;
  }
 
 }
